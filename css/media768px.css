@@ -1,3 +1,29 @@
 .container {
-    max-width: 720px;
+  max-width: 720px;
+}
+
+.about-meal .about-meal-wrap {
+  flex-direction: column;
+}
+.about-meal .about-meal-wrap img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.our-services .card-wrapper {
+  flex-direction: column;
+}
+.our-services .card-wrapper .service-card {
+  margin-bottom: 6rem;
+}
+
+.footer .container {
+  flex-direction: column;
+}
+.footer .box {
+  text-align: left;
+  margin-right: 0;
+  margin-bottom: 3rem;
+}
+.footer .box:nth-child(3) h3 {
+  text-align: left;
 }

@@ -1,3 +1,27 @@
 .container {
-    max-width: 540px;
+  max-width: 540px;
+}
+#showcase .showcase-image {
+  right: -235px;
+  top: 150px;
+}
+#showcase {
+  margin-top: -3rem;
+}
+#showcase .container {
+  padding-left: 1rem;
+}
+.big-deal .timer > div {
+  margin-right: 0.5rem;
+}
+.big-deal .timer {
+  margin-right: -0.5rem;
+}
+
+.news-letter .container {
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.contact-us {
+  flex-direction: column;
 }
