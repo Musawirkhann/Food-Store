@@ -25,7 +25,6 @@
 }
 /* main colors set */
 :root {
-  --primary-color: #eebf00;
   --secondary-color: #232b38;
   --ternary-color: #6c6c6c;
   --danger-color: #fe4545;
@@ -33,6 +32,7 @@
   --light-color: #f0f0f0;
   --heaven-color: #ffffff;
   --footer-color: #2d333f;
+  --primary-color: #ee005b;
 }
 * {
   margin: 0;
@@ -498,12 +498,14 @@ body {
   font-family: "Raleway-bold";
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  color: var(--heaven-color);
 }
 .news-letter p {
   font-family: "Raleway-medium";
   font-size: 1rem;
   margin-bottom: 1.5rem;
   line-height: 1.5;
+  color: var(--white-color);
 }
 .news-letter .input-wrap {
   background: var(--heaven-color);
